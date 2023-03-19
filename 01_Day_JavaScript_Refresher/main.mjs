@@ -107,8 +107,27 @@
 // shoppingCart[3] = 'Green Tea'
 // console.log(shoppingCart)
 
-const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-const backEnd = ['Node', 'Express', 'MongoDB']
+// const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+// const backEnd = ['Node', 'Express', 'MongoDB']
 
-const fullStack = frontEnd.concat(backEnd)
-console.log(fullStack)
+// const fullStack = frontEnd.concat(backEnd)
+// console.log(fullStack)
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort((age1, age2) => age1 - age2)
+console.log(ages)
+
+const minAge = ages.find(age => age < 20)
+console.log(minAge)
+
+const maxAge = ages.find(age => age > 25)
+console.log(maxAge)
+
+const averageAge = ages.reduce((sumOfAges, age) => sumOfAges + age, 0) / ages.length
+console.log(averageAge)
+
+const rangeOfAges = maxAge - minAge;
+console.log(rangeOfAges)
+
+console.log(Math.abs(minAge - rangeOfAges))
+console.log(Math.abs(maxAge - rangeOfAges))
+
