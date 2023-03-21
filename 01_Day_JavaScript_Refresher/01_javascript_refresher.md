@@ -1978,16 +1978,16 @@ console.log(copyPerson.hasOwnProperty('score'))
 
 ##### Exercises: Level 1
 
-1. Create an empty object called dog
-1. Print the the dog object on the console
-1. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_
-1. Get name, legs, color, age and bark value from the dog object
-1. Set new properties the dog object: breed, getDogInfo
+1. Create an empty object called dog ✅
+1. Print the the dog object on the console ✅
+1. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_ ✅
+1. Get name, legs, color, age and bark value from the dog object ✅
+1. Set new properties the dog object: breed, getDogInfo ✅
 
 ##### Exercises: Level 2
 
-1. Find the person who has many skills in the users object.
-1. Count logged in users,count users having greater than equal to 50 points from the following object.
+1. Find the person who has many skills in the users object. ✅
+1. Count logged in users,count users having greater than equal to 50 points from the following object. ✅
 
    ````js
    const users = {
