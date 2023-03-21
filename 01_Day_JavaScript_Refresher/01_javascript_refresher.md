@@ -2044,11 +2044,11 @@ console.log(copyPerson.hasOwnProperty('score'))
 
    ````
 
-1. Find people who are MERN stack developer from the users object
-1. Set your name in the users object without modifying the original users object
-1. Get all keys or properties of users object
-1. Get all the values of users object
-1. Use the countries object to print a country name, capital, populations and languages.
+1. Find people who are MERN stack developer from the users object ✅
+1. Set your name in the users object without modifying the original users object ✅
+1. Get all keys or properties of users object ✅ 
+1. Get all the values of users object ✅
+1. Use the countries object to print a country name, capital, populations and languages. ✅
 
 ##### Exercises: Level 3
 
